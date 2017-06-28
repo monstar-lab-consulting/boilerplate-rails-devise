@@ -19,7 +19,6 @@ Project Structure
 - **POLICYs** can be used in an operation to grant or deny access to functionality
 - Validations are implemented **CONTRACT**
 - **MODEL** contain associations, scopes and finders. Only persistence logic, no callbacks, no validations, no business logic here.
-- **ERROR** try catch all exceptions
 
 Features
 --------
