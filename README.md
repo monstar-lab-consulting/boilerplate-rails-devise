@@ -13,7 +13,6 @@ Table of Contents
 
 Project Structure
 --------
-![structure](https://user-images.githubusercontent.com/16132307/27372120-af3210be-568d-11e7-936d-59a91e25062c.jpg)
 #### Rule of this project:
 -	**CONTROLLER** They end up as lean HTTP endpoints. No business logic is to be found in the controller, they instantly delegate to their respective operation.
 - **OPERATION** is orchestrates validations, policies, models, callback and business logic
@@ -59,7 +58,7 @@ Getting Started
 The easiest way to get started is to clone the repository:
 ``` bash
 # Get the latest snapshot
-$git clone https://github.com/AsianTechInc/AT-boilerplate-rails-api.git myproject
+$git clone git@github.com:AsianTechInc/AT-boilerplate-rails-devise.git myproject
 
 # Change directory
 $cd myproject
